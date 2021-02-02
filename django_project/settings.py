@@ -137,4 +137,4 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = "madur0392@gmail.com"
-EMAIL_HOST_PASSWORD = "hdudhxgclnaloxee"
+EMAIL_HOST_PASSWORD = "set up later"
