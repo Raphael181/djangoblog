@@ -26,7 +26,7 @@ SECRET_KEY = '-fes!day!+yg*r#iqg3bn)o^l=y+pl2v&kt086c03w*v*%-9k6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -138,3 +138,4 @@ EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = os.environ.get("DB_USER")
 EMAIL_HOST_PASSWORD = os.environ.get("DB_PASS")
+
